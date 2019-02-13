@@ -1,4 +1,4 @@
-# testing
+
 # The body mass index (BMI) is calculated as a person's weight (in pounds) times 720 divided
 # by the square of the person's height (in inches).  A BMI in the range 19 to 25, inclusive,
 # is considered healthy.
