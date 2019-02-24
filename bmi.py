@@ -5,10 +5,15 @@
 
 
 import matplotlib.pyplot as plt
-
-print("\n\nThis Program will calculate your BMI\n")
-W = eval(input(("Enter your weight in (Pounds): \n")))
-H = eval(input(("Enter your height in (Inches): \n")))
+while True:
+    print("\n\nThis Program will calculate your BMI\n")
+    W = input(("Enter your weight in (Pounds): \n"))
+    H = input(("Enter your height in (Inches): \n"))
+    if (type(W) != int):
+        print("\n\nSomething went WRONG with your input\nPlease, make sure you enter numbers!\n\n")
+        continue
+    else:
+        break
 
 X = 720 * W // (H ** 2)
 
